@@ -10,7 +10,7 @@ console.log("Drink Names:");
 console.table(drinkNames);
 
 //Print an array of drinks that cost 5 and under.
-onst cheapDrinks = coffeeMenu.filter((drink) => drink.price <= 5);
+const cheapDrinks = coffeeMenu.filter((drink) => drink.price <= 5);
 console.log("Cheap Drinks:");
 console.table(cheapDrinks);
 
